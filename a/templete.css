@@ -1,0 +1,386 @@
+body{
+ margin:0px;
+}
+
+.normal{
+ width:1000px;
+ margin: 0 auto; 
+} 
+.inline{
+ display: inline-block;
+}
+.displayspace{
+    margin-top: 40px; 
+ }
+.full{
+ width:100%;
+}
+#header{
+ height: 600px;
+ background-image:url(../images/bg-header.jpg);
+ background-repeat: no-repeat;
+ background-position:bottom ; 
+ background-size:100%;
+ background-position: 0px -200px;
+    }
+   .firsticon{
+      background-image:url(../images/a.png);
+ background-repeat: no-repeat;
+ background-size: 50px;
+ width:50px;
+ height: 50px;
+ margin-left:50px; 
+    }
+  #header .first ul{ 
+    display: inline-block;
+    margin:0px; 
+    padding: 0px;  
+ }
+  #header .first li{
+    display: inline-block;
+     margin-top: 30px; 
+     color:white;
+     margin-right:30px;
+ }
+ #header .first li img{
+  border-radius: 15px;
+ }
+.content{
+  text-align: center;
+  padding-top:100px;
+}
+
+ .content h1,p,a{
+    color:white;
+
+}
+.content h1{
+    font-size: 80px;
+        margin-bottom:-30px;
+
+}
+ .content p{
+    font-size: 40px;
+
+}
+
+.content a{
+    padding: 20px 3px; 
+    border: 1px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+ #header .second li{
+   padding-left: 10px;
+ }
+
+
+#elements{
+    height: 500px;
+    background-image:url(../images/mock.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#elements h1{
+  font-size: 30px;
+  margin-left: 80px;
+  font-family: 'Work Sans', sans-serif;
+  color:#696969;
+}
+#elements p{
+ margin-left: 146px;
+color: gray; 
+}
+
+#news{
+ height: 275px;
+}
+#news ul {
+     margin: 0px;
+   padding: : 0px;
+   
+   width: 290px;
+}
+#news ul li{
+ background-color: white;
+   height: 69px;
+
+}
+#news ul li i{
+   padding: 10px 15px; 
+    border: 1px solid gray;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+
+
+#slides{
+ height: 700px;
+ background-image:url(../images/video-poster.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+#subscriptions{
+ height: 700px;
+  
+}
+ #subscriptions h1{
+  text-align: center; 
+  font-size:40px; 
+} 
+#subscriptions div{
+  width: 320px;
+  height: 615px;
+  background-color: white;
+  margin:0px 6px; 
+}
+#subscriptions div p{
+  height: 35px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+  color:#A4A4A4;
+  margin:0px;
+
+}
+ #subscriptions a{
+    padding: 14px 41px; 
+    border: 1px solid purple;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: purple;
+    margin-left: 35px;
+
+
+  }
+#information{
+ height: 520px;
+ background-image:url(../images/bg-testimonials.jpg);
+  background-repeat: no-repeat;
+}
+  #information h1{
+  color:white;
+  text-align: center;
+}
+#information p{
+  color:white;
+  text-align: center; 
+}  
+#information hr{
+  width: 40px;
+}
+#information ul{
+  margin: 0px;
+  padding: 0px; 
+      margin-left: 38%;
+      margin-top: 5%;
+
+    } 
+#information ul li{
+ float: left;
+  margin-right: 10px;
+
+}
+#industry{
+ height: 300px;
+ background-color: white;
+}
+#industry div{
+  height: 200px;
+  width:480px;
+}
+#industry div p{
+   color:darkgray;
+   font-size:20px;
+}
+#industry h1{
+   font-size:40px;
+   text-align: center;
+    color:#848484;
+}
+#images{
+ height: 800px;
+}
+
+#images .img1{
+  background-image: url(../images/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 397px;
+ width: 498px;
+ margin:0px auto;
+ margin-bottom:0px;
+ float: left;
+}
+#images .img2 {
+  background-color: black;
+  height: 397px;
+ width: 498px;
+ margin:0px auto;
+ margin-bottom:0px;
+ float: left;
+}
+ #images .imgcnt1 ul li{
+  margin-left: 60px;
+ }
+ #images .img2 h1{
+  color: white;
+ }
+  #images .img2 li{
+    color: gray;
+  }
+
+
+a.buton{
+  padding: 11px 33px; 
+     border: none solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 10px;
+    float: left;
+    margin-top: 22%;
+    margin-left: 20%;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 15px;
+}
+#images .img3 {
+  background-color:black;
+  height: 397px;
+ width: 498px;
+ margin:0px auto;
+ margin-bottom:0px;
+ float: left;
+}
+#images .img3 a{
+   padding: 11px 33px; 
+    border: none solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 10px;
+     float: left;
+    margin-top: 22%;
+    margin-left: 20%;
+    background-color: blue;
+     font-weight: bold;
+      font-size: 15px;
+}
+  #images .imgcnt2 ul li{
+  margin-left: 60px;
+}
+ #images .img3 h1{
+  color: white;
+ }
+  #images .img3 li{
+    color: gray;
+  }
+
+
+#images .img4{
+   background-image: url(../images/img3.jpg);
+   background-repeat: no-repeat;
+   float: left;
+    height: 397px;
+ width: 498px;
+ background-size: cover;
+}
+
+
+
+
+#signUp{
+ height: 300px;
+ background-color: #EFF2FB;
+}
+#signUp h2{
+   text-align: center;
+  padding-top: 60px;
+    padding-bottom: 30px;
+}
+#signUp p{
+   color:gray;
+   padding-left: 60px;
+
+}
+#signUp p a{
+   color:gray;
+}
+
+
+#signUp .freeSign a{
+    padding: 15px 20px; 
+    border: 1px solid black;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    background-color: #8904B1;
+}
+#signUp .user input{
+  background-image:url(../images/icon-user.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  padding-left:40px;
+  font-size: 20px;
+  width: 210px;
+  height: 50px;
+  margin-right: 7px;
+}
+  #signUp .email input{
+  background-image:url(../images/icon-email.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  padding-left:40px;
+  font-size: 20px;
+  width: 210px;
+  height: 50px;
+}
+#signUp .password input{
+  background-image:url(../images/icon-lock.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  padding-left:40px;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+
+
+
+
+#footer{
+ height: 140px;
+ background-color: #696969;
+   color:white;
+}
+#footer .finish li{
+   color:white;
+}
+
+#footer .four ul{ 
+    display: inline-block;
+    margin:0px; 
+    padding: 0px;
+    float: left;
+
+ }
+  #footer .four li{
+    display: inline-block;
+     color:white;
+      padding: 5px 10px;
+   
+ }
+
+ .calc{
+
+  height: 300px;
+ }
